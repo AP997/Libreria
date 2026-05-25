@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Online</title>
+    <link rel="stylesheet" href="Libraria.css">
+</head>
+<body>
+<header>
+    <h1>Libreria Online </h1>
+    <input type="text" id="searchInput" placeholder="Cerca libri...">
+    <select id="categoryFilter">
+        <option value="all">Tutte le categorie</option>
+        <option value="fiction">Narrativa</option>
+        <option value="non-fiction">Saggistica</option>
+        <option value="science">Scienza</option>
+        <option value="history">Storia</option>
+        <option value="fantasy">Fantasy</option>
+    </select>
+    </header>
+
+    <main id="bookList">
+        <div class="book">
+            <h3>Test Book</h3>
+            <p><strong>Autore:</strong> Test Author (2023)</p>
+            <p><strong>Categoria:</strong> test</p>
+        </div>
+    </main><!-- i libri verranno generati dinamicamente -->
+    <p style="color: white;">Se vedi questo testo, la pagina sta caricando.</p>
+
+    <script src="Libraria.js"></script>
+
+    
+</body>
+</html>
